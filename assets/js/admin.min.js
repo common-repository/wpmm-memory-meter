@@ -1,0 +1,2 @@
+jQuery(document).ready((function(e){const{__:o,_x:n,_n:r,_nx:m,sprintf:t}=wp.i18n;e("body").on("click","#wpmm-memory-meter-clear-logs",(function(e){confirm(o("Are you sure you want to clear all of the logs?","wpmm-memory-meter"))||e.preventDefault()}))}));
+//# sourceMappingURL=admin.min.js.map

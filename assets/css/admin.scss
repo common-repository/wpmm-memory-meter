@@ -1,0 +1,112 @@
+// Tabs
+
+.wpmm-memory-meter-page-tabs {
+	.wpmm-memory-meter-page-tabs-buttons {
+		float: right;
+		width: 220px;
+		.button {
+			font-weight: 400;
+			margin-left: 10px;
+			float: right;
+			.dashicons {
+				font-size: 18px;
+				vertical-align: middle;
+				margin-left: -3px;
+			}
+		}
+	}
+	+ .wpmm-memory-meter-page-columns {
+		margin-top: 20px;
+	}
+}
+
+// Notice
+
+.wpmm-memory-meter-page-notice {
+	margin: 20px 0 !important;
+	a {
+		text-decoration: none;
+	}
+	.button {
+		margin-right: 8px;
+	}
+}
+
+// Columns
+
+.wpmm-memory-meter-page-columns {
+	display: flex;
+	margin: 0 -15px;
+	@media( max-width: 960px ) {
+		display: block;
+	}
+	.wpmm-memory-meter-page-column {
+		width: 50%;
+		padding: 0 15px;
+		@media( max-width: 960px ) {
+			width: 100%;
+		}
+		h2 {
+			margin-top: 0;
+		}
+	}
+}
+
+// Table
+
+.wpmm-memory-meter-page-table {
+	word-break: break-word;
+	tbody {
+		tr {
+			&:hover {
+				td {
+					background-color: #dcdcde;
+				}
+			}
+		}
+	}
+}
+
+// PHP and WordPress configuration
+
+.wpmm-memory-meter-page-php-wordpress-configuration {
+	display: flex;
+	margin: 0 -10px 20px -10px;
+	@media( max-width: 960px ) {
+		display: block;
+		margin: 0 0 20px 0;
+	}
+	.wpmm-memory-meter-page-php-wordpress-configuration-box {
+		width: 25%;
+		background: #ffffff;
+		margin: 0 10px;
+		padding: 20px;
+		text-align: center;
+		border: 1px solid #c3c4c7;
+		box-shadow: 0 1px 1px rgba( 0, 0, 0, .04 );
+		@media( max-width: 960px ) {
+			width: 100%;
+			margin: 0;
+		}
+		strong {
+			display: block;
+			font-size: 16px;
+			margin: 15px 0;
+		}
+		&.wpmm-memory-meter-page-php-wordpress-configuration-box-php {
+			border-top: 4px solid #8892bf; // PHP primary brand color
+			img {
+				height: 40px;
+			}
+		}
+		&.wpmm-memory-meter-page-php-wordpress-configuration-box-wordpress {
+			border-top: 4px solid #0073aa; // WordPress primary brand color
+			.dashicons {
+				font-size: 40px;
+				width: 40px;
+				height: 40px;
+				color: #0073aa; // WordPress primary brand color
+			}
+		}
+	}
+}

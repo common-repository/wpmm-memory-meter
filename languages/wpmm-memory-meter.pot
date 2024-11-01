@@ -1,0 +1,318 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Memory Meter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-23 12:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: wpmm-memory-meter"
+
+#: wpmm-memory-meter.php:385
+msgid "%"
+msgstr ""
+
+#. memory usage, percent and limit
+#: wpmm-memory-meter.php:769
+#, php-format
+msgid "%1$s (%2$s of %3$s)"
+msgstr ""
+
+#: wpmm-memory-meter.php:581 wpmm-memory-meter.php:591
+#: wpmm-memory-meter.php:611 wpmm-memory-meter.php:621
+msgid "(bool)"
+msgstr ""
+
+#: wpmm-memory-meter.php:601 wpmm-memory-meter.php:632
+#: wpmm-memory-meter.php:642
+msgid "(int)"
+msgstr ""
+
+#. file size formats
+#: wpmm-memory-meter.php:555 wpmm-memory-meter.php:571
+msgid "(string)"
+msgstr ""
+
+#. Author of the plugin
+msgid "99w"
+msgstr ""
+
+#: assets/js/admin.js:11
+msgid "Are you sure you want to clear all of the logs?"
+msgstr ""
+
+#: wpmm-memory-meter.php:544
+msgid "Arguments"
+msgstr ""
+
+#: wpmm-memory-meter.php:385 wpmm-memory-meter.php:668
+msgid "Bad"
+msgstr ""
+
+#: wpmm-memory-meter.php:352
+msgid "Clear logs"
+msgstr ""
+
+#: wpmm-memory-meter.php:285 wpmm-memory-meter.php:346
+msgid "Configuration"
+msgstr ""
+
+#: wpmm-memory-meter.php:401
+msgid "Configure memory meter using these filter hooks:"
+msgstr ""
+
+#: wpmm-memory-meter.php:397
+msgid ""
+"Current PHP and WordPress memory related configuration is displayed below:"
+msgstr ""
+
+#: wpmm-memory-meter.php:547
+msgid "Current value"
+msgstr ""
+
+#: wpmm-memory-meter.php:422
+msgid "Date"
+msgstr ""
+
+#: wpmm-memory-meter.php:546
+msgid "Default value"
+msgstr ""
+
+#: wpmm-memory-meter.php:545
+msgid "Description"
+msgstr ""
+
+#: wpmm-memory-meter.php:593
+msgid ""
+"Enable or disable logging of Memory Meter dashboard based page requests."
+msgstr ""
+
+#: wpmm-memory-meter.php:583
+msgid "Enable or disable memory usage logs."
+msgstr ""
+
+#: wpmm-memory-meter.php:571
+#, php-format
+msgid "File size format as %1$s, %2$s or %3$s"
+msgstr ""
+
+#: wpmm-memory-meter.php:400
+msgid "Filter Hooks"
+msgstr ""
+
+#: wpmm-memory-meter.php:383
+msgid "Flagged Logs"
+msgstr ""
+
+#. warning and bad percentages
+#: wpmm-memory-meter.php:385
+#, php-format
+msgid "Flagged page requests with memory usage over %1$s and %2$s:"
+msgstr ""
+
+#: wpmm-memory-meter.php:543
+msgid "Hook name"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://99w.co.uk"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/wpmm-memory-meter/"
+msgstr ""
+
+#: wpmm-memory-meter.php:378
+msgid "Latest Logs"
+msgstr ""
+
+#: wpmm-memory-meter.php:379
+msgid "Latest page requests memory usage:"
+msgstr ""
+
+#: wpmm-memory-meter.php:276 wpmm-memory-meter.php:345
+msgid "Logs"
+msgstr ""
+
+#: wpmm-memory-meter.php:365
+msgid ""
+"Logs are currently disabled in configuration so no further logging will "
+"occur."
+msgstr ""
+
+#: wpmm-memory-meter.php:601
+msgid "Max logs number"
+msgstr ""
+
+#. Name of the plugin
+#: wpmm-memory-meter.php:310 wpmm-memory-meter.php:311
+#: wpmm-memory-meter.php:343
+msgid "Memory Meter"
+msgstr ""
+
+#: wpmm-memory-meter.php:423
+msgid "Memory usage"
+msgstr ""
+
+#. status, memory usage
+#: wpmm-memory-meter.php:692
+#, php-format
+msgid "Memory: %1$s (%2$s of %3$s)"
+msgstr ""
+
+#: wpmm-memory-meter.php:219
+msgid "Memory: Calculating"
+msgstr ""
+
+#: wpmm-memory-meter.php:513 wpmm-memory-meter.php:518
+#: wpmm-memory-meter.php:523 wpmm-memory-meter.php:528
+msgid "More info"
+msgstr ""
+
+#: wpmm-memory-meter.php:489
+msgid "No logs yet."
+msgstr ""
+
+#: wpmm-memory-meter.php:680
+msgid "Okay"
+msgstr ""
+
+#: wpmm-memory-meter.php:424
+msgid "Page request"
+msgstr ""
+
+#: wpmm-memory-meter.php:632 wpmm-memory-meter.php:642
+msgid "Percentage number"
+msgstr ""
+
+#: wpmm-memory-meter.php:703
+msgid "PHP"
+msgstr ""
+
+#: wpmm-memory-meter.php:396
+msgid "PHP and WordPress Configuration"
+msgstr ""
+
+#. PHP max execution time
+#: wpmm-memory-meter.php:115
+#, php-format
+msgid "PHP Max Execution Time: %s"
+msgstr ""
+
+#. PHP memory limit
+#: wpmm-memory-meter.php:110
+#, php-format
+msgid "PHP Memory Limit: %s"
+msgstr ""
+
+#: wpmm-memory-meter.php:349
+msgid "Refresh logs"
+msgstr ""
+
+#: wpmm-memory-meter.php:115
+msgid "seconds"
+msgstr ""
+
+#. PHP's memory_get_peak_usage() and $real_usage argument
+#: wpmm-memory-meter.php:624
+#, php-format
+msgid "Set if memory usage got from PHP's %1$s enables %2$s."
+msgstr ""
+
+#: wpmm-memory-meter.php:634
+msgid "Set the bad memory usage percentage."
+msgstr ""
+
+#. %s: user capability
+#: wpmm-memory-meter.php:560
+#, php-format
+msgid ""
+"Set the capability a user must have to view the memory meter in the admin "
+"bar and access the Memory Meter dashboard. This is not used to determine if "
+"the page request information should be logged in addition to the memory "
+"usage for a user, when using the free version of this plugin, the page "
+"request information is only logged if the user has the %s capability, "
+"generally administrators."
+msgstr ""
+
+#: wpmm-memory-meter.php:573
+msgid "Set the file size format for the memory meter."
+msgstr ""
+
+#: wpmm-memory-meter.php:603
+msgid "Set the maximum number of logs."
+msgstr ""
+
+#: wpmm-memory-meter.php:644
+msgid "Set the warning memory usage percentage."
+msgstr ""
+
+#: wpmm-memory-meter.php:613
+msgid "Set whether memory usage colors should be applied."
+msgstr ""
+
+#: wpmm-memory-meter.php:385
+msgid "Status:"
+msgstr ""
+
+#. status
+#. %s: memory usage status name
+#: wpmm-memory-meter.php:445 wpmm-memory-meter.php:697
+#, php-format
+msgid "Status: %s"
+msgstr ""
+
+#: wpmm-memory-meter.php:581 wpmm-memory-meter.php:591
+#: wpmm-memory-meter.php:611 wpmm-memory-meter.php:621
+msgid "true or false"
+msgstr ""
+
+#: wpmm-memory-meter.php:460
+msgid "Unavailable - logged before premium upgrade"
+msgstr ""
+
+#: wpmm-memory-meter.php:465
+msgid "Unavailable - not logged for user"
+msgstr ""
+
+#: wpmm-memory-meter.php:296
+msgid "Upgrade"
+msgstr ""
+
+#. %s user capability
+#: wpmm-memory-meter.php:469
+#, php-format
+msgid "Upgrade to log for users without %s capability"
+msgstr ""
+
+#: wpmm-memory-meter.php:385 wpmm-memory-meter.php:674
+msgid "Warning"
+msgstr ""
+
+#: wpmm-memory-meter.php:555
+msgid "WordPress capability"
+msgstr ""
+
+#. Description of the plugin
+msgid "WordPress plugin by 99w."
+msgstr ""
+
+#. WP max memory limit
+#: wpmm-memory-meter.php:127
+#, php-format
+msgid "WP Max Memory Limit: %s"
+msgstr ""
+
+#. WP memory limit
+#: wpmm-memory-meter.php:121
+#, php-format
+msgid "WP Memory Limit: %s"
+msgstr ""
